@@ -1,4 +1,5 @@
 # diagram.py
+#vssdfuogfsfd
 #---------------------------------------------------------------------------------------------------------------
 from diagrams import Diagram
 from diagrams.generic.network import Router, Switch, Firewall
@@ -18,7 +19,7 @@ with Diagram("Wake on Wan(WOW) Via discord server", show=False, graph_attr=graph
     wow_server = Server("Servidor Wake on Wan")
     Roteador= Router("Roteador")
     Firewall = Firewall("Firewall")
-    Cliente= Client("Computador")
+    Cliente= Client("Computadr")
 
     Usuario>>Discord>>Internet>>wow_server>>Roteador>>Firewall>>Cliente
 #---------------------------------------------------------------------------------------------------------------
